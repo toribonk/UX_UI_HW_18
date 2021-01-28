@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f2528;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 20px;
+    align-items: center;
+  }
+
+  .logo {
+    width: 10%;
+    padding: 1%;
+    float: left;
+  }
+  .topnav {
+      overflow: hidden;
+      width: 50%;
+      margin-left: auto;
+    }
+  .topnav a {
+    float: left;
+    color: #4682b4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  .topnav a:hover {
+    color: #ff4040;
+    }
+  .topnav a.active {
+    background-color: #ff4040;
+    color: white;
+    }
+  hr.dashed {
+    border-top: 1px dashed #f2bd1e;
+    width: 70%;
+    align-items: center;
+    }
+  .heroimg {
+    height: 600px;
+  }
+  .flex-containerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: auto;
+  }
+  .bottomnavimg {
+      height: 30px;
+  }
+  h1 {
+    font-size: 40px;
+    color: #ff4040;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h3 { 
+      font-size: 18px;
+      font-weight:100;
+  }
+  p {
+    width: 50%;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    border: 0.5px solid #1F2528;
+    box-sizing: border-box;
+  }
+  button:hover {
+    background-color: #FF4040;
+    border: none;
+    color: white;
+  }
+
+  .skillsimg {
+      height: 200px;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    vertical-align: auto;
+    text-align: left;
+  }
+  .flex-containerBody {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+  }
+.aboutme {
+  width: 25%;
+  height: auto;
+}
+.aboutmebutton {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preloader img {
+  animation: spin 3s ease;
+  transition: all;
+  width: 150px;
+  margin: 0 auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
